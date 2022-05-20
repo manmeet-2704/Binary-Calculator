@@ -1,0 +1,47 @@
+@font-face {
+    font-family: myFont;
+    src: url(Digital7Monoitalic-8xKz.ttf);
+}
+body{
+    background-color: #F5F0E7;
+}
+#res{
+    background: lightgray;
+    border: solid black;
+    height: 48px;
+    overflow-y: scroll;
+    font-size: 2.3vw;
+    text-align: left;
+}
+button{
+    border-radius: 0;
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin:0;
+    float: left;
+    background: black;
+    color: red;
+}
+#bin1, #bin0{
+    background: lightgreen;
+    color: brown;
+}
+#clr, #equal{
+    background: darkgreen;
+    color: white;
+}
+
+#container{
+    width: 500px;
+    margin: 100px auto;
+    font-family: myFont;
+}
+
+.heading{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
